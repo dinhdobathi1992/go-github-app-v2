@@ -1,3 +1,6 @@
+
+# I HAVE CLONED THIS REPO FROM  https://github.com/MartinHeinz/go-github-app AND JUST ADD MORE FUNCTION, I'M NOT THE OWNER OF ALL CODE :)
+
 # Template for GitHub Apps built with Golang
 
 [![Build, Test and Lint Action](https://github.com/MartinHeinz/go-github-app/workflows/Build,%20Test,%20Lint/badge.svg)](https://github.com/MartinHeinz/go-github-app/workflows/Build,%20Test,%20Lint/badge.svg)
