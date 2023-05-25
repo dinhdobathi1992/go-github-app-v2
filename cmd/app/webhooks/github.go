@@ -5,7 +5,7 @@ import (
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
-	"github.com/MartinHeinz/go-github-app/cmd/app/config"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/config"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 	"log"

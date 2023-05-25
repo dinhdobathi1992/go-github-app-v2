@@ -1,7 +1,7 @@
 package webhooks
 
 import (
-	"github.com/MartinHeinz/go-github-app/cmd/app/test_data"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/test_data"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/http"

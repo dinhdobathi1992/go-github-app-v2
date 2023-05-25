@@ -17,7 +17,7 @@ jobs:
           make build
           test -f bin/linux_amd64/app
           make all-container
-          docker images | grep "^ghcr.io/dinhdobathi1992/go-github-app/app.*__linux_amd64"
+          docker images | grep "^ghcr.io/dinhdobathi1992/go-github-app-v2/app.*__linux_amd64"
           make ci
       - name: SonarCloud scanner
         uses: sonarsource/sonarcloud-github-action@master
@@ -30,6 +30,6 @@ jobs:
           CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
         with:
           coverageCommand: make ci
-          prefix: github.com/MartinHeinz/go-github-app
+          prefix: github.com/dinhdobathi1992/go-github-app-v2
           coverageLocations: |
             ${{github.workspace}}/reports/coverage.out:gocov

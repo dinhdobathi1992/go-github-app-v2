@@ -1,7 +1,7 @@
 package test_data
 
 import (
-	"github.com/MartinHeinz/go-github-app/cmd/app/config"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/config"
 )
 
 // Initializes application config
