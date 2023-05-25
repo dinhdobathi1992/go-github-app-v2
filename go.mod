@@ -1,4 +1,4 @@
-module github.com/MartinHeinz/go-github-app
+module github.com/dinhdobathi1992/go-github-app
 
 go 1.17
 
