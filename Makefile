@@ -4,7 +4,7 @@
 BIN := app
 
 # Where to push the docker image.
-REGISTRY ?= ghcr.io/dinhdobathi1992/go-github-app
+REGISTRY ?= dinhdobathi/go-github-app
 
 # This version-strategy uses git tags to set the version string
 VERSION := $(shell git describe --tags --always --dirty)
@@ -18,7 +18,7 @@ VERSION := $(shell git describe --tags --always --dirty)
 
 SRC_DIRS := cmd pkg # directories which hold app source (not vendored)
 
-ALL_PLATFORMS := linux/amd64
+ALL_PLATFORMS := darwin/amd64
 
 # Used internally.  Users should pass GOOS and/or GOARCH.
 OS := $(if $(GOOS),$(GOOS),$(shell go env GOOS))

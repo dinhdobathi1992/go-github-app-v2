@@ -5,7 +5,7 @@ do
     VALUE=$(echo $ARGUMENT | cut -f2 -d=)
 
     case "$KEY" in
-            APP_ID)           APP_ID=${VALUE} ;;
+            APP_ID)           APP_ID=$VALUE ;;
             INSTALLATION_ID)  INSTALLATION_ID=${VALUE} ;;
             WEBHOOK_SECRET)   WEBHOOK_SECRET=${VALUE} ;;
             REGISTRY)         REGISTRY=${VALUE} ;;
@@ -13,7 +13,7 @@ do
     esac
 done
 
-DUMMY_REGISTRY='ghcr.io/martinheinz/go-github-app'
+DUMMY_REGISTRY='ghcr.io/dinhdobathi1992/go-github-app-v2'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 

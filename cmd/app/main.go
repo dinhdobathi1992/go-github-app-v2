@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/MartinHeinz/go-github-app/cmd/app/apis"
-	"github.com/MartinHeinz/go-github-app/cmd/app/config"
-	"github.com/MartinHeinz/go-github-app/cmd/app/utils"
-	"github.com/MartinHeinz/go-github-app/cmd/app/webhooks"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/apis"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/config"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/utils"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/webhooks"
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
 	"github.com/swaggo/gin-swagger"

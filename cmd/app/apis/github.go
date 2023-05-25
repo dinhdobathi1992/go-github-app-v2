@@ -1,7 +1,7 @@
 package apis
 
 import (
-	"github.com/MartinHeinz/go-github-app/cmd/app/config"
+	"github.com/dinhdobathi1992/go-github-app-v2/cmd/app/config"
 	"github.com/gin-gonic/gin"
 	"github.com/google/go-github/v41/github"
 	"log"
